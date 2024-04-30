@@ -28,6 +28,20 @@ state_of_america.extend(["Bristol", "Jakarta"])
 print(state_of_america)
 
 #Have a look on Data Structure on the Python Documentation
+# Exercise Challenge - Random
+"""
+write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails"
+Important, the first letter should be capitalised and spelt exactly, cuz it is case-sensitive
+
+Generate a random number, either 0 or 1. Then use that number to print out "Heads" or "Tails"
+"""
+import random
+
+Random_generator = random.randint(0,1)
+if Random_generator == 0:
+  print("Heads")
+else:
+  print("Tails")
 
 #Exercise - Challenge
 """
@@ -101,20 +115,5 @@ number_index = int(position[1]) - 1
 map[letter_index][number_index] = "X"
 
 print(f"{line1}\n{line2}\n{line3}")
-
-# Exercise Challenge - Random
-"""
-write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails"
-Important, the first letter should be capitalised and spelt exactly, cuz it is case-sensitive
-
-Generate a random number, either 0 or 1. Then use that number to print out "Heads" or "Tails"
-"""
-import random
-
-Random_generator = random.randint(0,1)
-if Random_generator == 0:
-  print("Heads")
-else:
-  print("Tails")
 
 
