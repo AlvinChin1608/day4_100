@@ -35,7 +35,6 @@ Important, the first letter should be capitalised and spelt exactly, cuz it is c
 
 Generate a random number, either 0 or 1. Then use that number to print out "Heads" or "Tails"
 """
-import random
 
 Random_generator = random.randint(0,1)
 if Random_generator == 0:
@@ -55,8 +54,6 @@ Note: Dont worry about getting hold of the input()
 
 """
 
-import random 
-
 names_string = input("Please insert your names separated by commas: ")
 names = names_string.split(", ")
 rand_picker = random.choice(names)
@@ -64,7 +61,6 @@ print(rand_picker, "is going to pay for the meal today")
 
 #Method 2 - without using choice() function
 
-import random 
 
 names_string = input("Please insert your names separated by commas: ")
 names = names_string.split(", ")
